@@ -4,7 +4,7 @@ Numerical tools for finding equilibria of bargaining games.
 
 ## Where start?
 1. Take a look at [this simple bargaining model](https://github.com/Yukee/numerical-bargaining/blob/main/simple_twoplayer_bargaining.ipynb), which walks you through the steps of creating an extensive form game and solving for the subgame perfect equilibria with Gambit.
-1. [This more involved example](https://github.com/Yukee/numerical-bargaining/blob/main/threeplayer_bargaining.ipynb) features a 3-player bargaining model that is harder to solve by hand.
+1. [This more involved example](https://github.com/Yukee/numerical-bargaining/blob/main/threeplayer_bargaining.ipynb) features a 3-player bargaining model.
 
 ## Installing the Gambit python API
 You'll need the Gambit python API to run the scripts in that repo.
