@@ -30,4 +30,4 @@ At that step, I ran into the error described [here](https://github.com/gambitpro
 
 ### Fix runtime problems
 
-I had to update the nash.py to run without errors on MacOS. Editing the file as described [here](https://github.com/gambitproject/gambit/pull/266#issue-516555733) worked for me.
+I had to update the `nash.py` file to run without errors on MacOS. Editing the file as described [here](https://github.com/gambitproject/gambit/pull/266#issue-516555733) worked for me.
