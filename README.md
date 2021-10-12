@@ -19,14 +19,14 @@ Remark: I also tried using the [gambit-15 and gambit-16 tarballs](http://www.gam
 
 ### Install the python interface
 
-1. Create a new environment \`conda create -n gambit python=3 cython ipython scipy\`
+1. Create a new environment `conda create -n gambit python=3 cython ipython scipy`
 2. `conda activate gambit`
 3. `cd [gambit git dir]/src/python`
-4. `CFLAGS=-stdlib=libc++ python` [`setup.py`](https://setup.py) `build`
+4. `CFLAGS=-stdlib=libc++ python setup.py build`
 
 At that step, I ran into the error described [here](https://github.com/gambitproject/gambit/issues/273#issue-950074287). The solution described [here](https://github.com/gambitproject/gambit/issues/273#issuecomment-895463705) worked for me.
 
-5. Now we're ready for installation: run `python` [`setup.py`](https://setup.py) `install`
+5. Now we're ready for installation: run `python setup.py install`
 
 ### Fix runtime problems
 
