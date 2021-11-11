@@ -35,4 +35,5 @@ At that step, I ran into the error described [here](https://github.com/gambitpro
 
 ### Fix runtime problems
 
-I had to update the `nash.py` file to run without errors on MacOS. Editing the file as described [here](https://github.com/gambitproject/gambit/pull/266#issue-516555733) worked for me.
+I had to update the `nash.py` file (the original is [here](https://github.com/gambitproject/gambit/blob/v16.0.1/src/python/gambit/nash.py)) to run without errors on MacOS.
+I've based my edits on the file given [here](https://github.com/gambitproject/gambit/pull/266#issue-516555733), but I had to modify it a bit for it to work with my version of Gambit. The file I end up using can be found in this repo, [here](https://github.com/Yukee/numerical-bargaining/blob/main/src/nash.py).
