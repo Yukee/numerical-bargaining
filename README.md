@@ -37,3 +37,12 @@ At that step, I ran into the error described [here](https://github.com/gambitpro
 
 I had to update the `nash.py` file (the original is [here](https://github.com/gambitproject/gambit/blob/v16.0.1/src/python/gambit/nash.py)) to run without errors on MacOS.
 I've based my edits on the file given [here](https://github.com/gambitproject/gambit/pull/266#issue-516555733), but I had to modify it a bit for it to work with my version of Gambit. The file I end up using can be found in this repo, [here](https://github.com/Yukee/numerical-bargaining/blob/main/src/nash.py).
+
+## [WIP] Open Game Engine
+* I installed Stack on a Mac with an M1 chip simply using `curl -sSL https://get.haskellstack.org/ | sh`, as explained [here](https://docs.haskellstack.org/en/stable/)
+* Cloning the [open game engine repo](https://github.com/CyberCat-Institute/open-game-engine)
+* Running `stack run` at the root of the repo
+* xcode error `xcode-select: error: tool 'xcodebuild' requires Xcode, but active developer directory '/Library/Developer/CommandLineTools' is a command line tools instance`
+### Tutorial
+* [Website tutorial](https://statebox.org/blog/compositional-game-engine/)
+* 
